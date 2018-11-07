@@ -49,7 +49,7 @@ const App = () => (
         appLayout={MyLayout} 
         dashboard={Dashboard} 
         authProvider={authProvider} 
-        dataProvider= {simpleRestProvider('http://localhost:3000/api')}
+        dataProvider= {simpleRestProvider('https://api.binstd.com/api')}
         // 路由
         customRoutes={customRoutes}
         // 主题
